@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 print("Loading dataset...")
-df = pd.read_csv("mental_health_lifestyle.csv")  
+df = pd.read_csv("Mental_Health_Lifestyle_dataset.csv")  
 print("Dataset loaded successfully!\n")
 
 print(df.info())
