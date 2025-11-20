@@ -1,0 +1,84 @@
+version: "3.1"
+
+intents:
+  - symptom_query
+  - ask_first_aid
+  - ask_wellness_tip
+  - greeting
+  - fallback
+  - health_checkin
+  - stress_management
+  - sleep_recommendation
+  - diet_recommendation
+  - fitness_tracking
+  - emotional_support
+  - mindfulness_practice
+
+responses:
+  utter_symptom_query:
+    - text: "A sore throat is often due to infection. Drink warm fluids, rest, and avoid cold drinks."
+    - text: "गले में दर्द अक्सर संक्रमण के कारण होता है। गुनगुना पानी पिएं और आराम करें।"
+    - text: "Fever indicates your body is fighting an infection. Rest, stay hydrated, and take acetaminophen if needed."
+    - text: "बुखार का मतलब है कि आपका शरीर संक्रमण से लड़ रहा है। आराम करें, पानी पिएं, और जरूरत पड़ने पर पैरासिटामोल लें।"
+    - text: "Cough can be due to cold or allergy. Stay hydrated, use honey for relief, and consult a doctor if persistent."
+    - text: "खांसी ठंड या एलर्जी के कारण हो सकती है। पानी पिएं, राहत के लिए शहद इस्तेमाल करें, और अगर जारी रहे तो डॉक्टर से सलाह लें।"
+    - text: "For a common cold, rest, stay hydrated, use saline nasal sprays, and take over-the-counter cold medications. Symptoms usually improve within 7-10 days."
+    - text: "सामान्य सर्दी के लिए, आराम करें, पानी पिएं, नमकीन नाक स्प्रे का इस्तेमाल करें, और काउंटर दवाएं लें। लक्षण आमतौर पर 7-10 दिनों में सुधर जाते हैं।"
+    - text: "Fever with cough may indicate a respiratory infection. Rest, stay hydrated, use a humidifier, and monitor your symptoms. Consult a doctor if fever exceeds 101°F or persists beyond 3 days."
+    - text: "बुखार के साथ खांसी श्वसन संक्रमण का संकेत दे सकती है। आराम करें, पानी पिएं, ह्यूमिडिफायर का इस्तेमाल करें, और अपने लक्षणों पर नजर रखें। अगर बुखार 101°F से अधिक हो या 3 दिनों से अधिक समय तक बना रहे तो डॉक्टर से सलाह लें।"
+    - text: "Headache can be caused by stress or dehydration. Rest in a dark room, hydrate, and use pain relievers if necessary."
+    - text: "सिरदर्द तनाव या निर्जलीकरण के कारण हो सकता है। अंधेरे कमरे में आराम करें, पानी पिएं, और जरूरत पड़ने पर दर्द निवारक दवाएं लें।"
+    - text: "Stomach pain may be due to indigestion. Avoid heavy foods, drink ginger tea, and see a doctor if severe."
+    - text: "पेट दर्द पाचन की समस्या के कारण हो सकता है। भारी खाना न खाएं, अदरक की चाय पिएं, और अगर गंभीर हो तो डॉक्टर देखें।"
+    - text: "Nausea can be from motion sickness or food. Sip on clear fluids, eat bland foods, and rest."
+    - text: "मतली मोशन सिकनेस या खाने से हो सकती है। साफ तरल पदार्थ पिएं, फीके खाना खाएं, और आराम करें।"
+
+  utter_ask_first_aid:
+    - text: "For first aid, clean the wound, apply pressure, and seek medical help."
+    - text: "प्राथमिक उपचार के लिए, घाव को साफ करें, दबाव डालें, और चिकित्सा सहायता लें।"
+
+  utter_ask_wellness_tip:
+    - text: "Get 7–8 hours of sleep for better immunity."
+    - text: "बेहतर प्रतिरक्षा के लिए 7-8 घंटे की नींद लें।"
+    - text: "Drink at least 2 L of water daily."
+    - text: "दैनिक कम से कम 2 लीटर पानी पिएं।"
+
+  utter_greeting:
+    - text: "Hello! How can I help you with your health today?"
+    - text: "नमस्ते! आज आपकी सेहत के साथ मैं कैसे मदद कर सकता हूं?"
+
+  utter_health_checkin:
+    - text: "How are you feeling today? On a scale of 1-10, how would you rate your overall wellness?"
+    - text: "आज आप कैसा महसूस कर रहे हैं? 1-10 की स्केल पर, आप अपनी समग्र सेहत को कैसे रेट करेंगे?"
+
+  utter_stress_management:
+    - text: "For stress management, try deep breathing exercises: inhale for 4 counts, hold for 4, exhale for 4. Regular meditation can also help reduce stress levels."
+    - text: "तनाव प्रबंधन के लिए, गहरी सांस लेने का अभ्यास आजमाएं: 4 गिनती तक सांस लें, 4 तक रोकें, 4 तक छोड़ें। नियमित ध्यान भी तनाव कम करने में मदद कर सकता है।"
+
+  utter_sleep_recommendation:
+    - text: "For better sleep, maintain a consistent sleep schedule, avoid screens before bed, and create a cool, dark sleeping environment. Aim for 7-9 hours nightly."
+    - text: "बेहतर नींद के लिए, सुसंगत नींद कार्यक्रम बनाए रखें, सोने से पहले स्क्रीन से बचें, और ठंडा, अंधेरा सोने का वातावरण बनाएं। रात को 7-9 घंटे की नींद का लक्ष्य रखें।"
+
+  utter_diet_recommendation:
+    - text: "A balanced diet includes plenty of fruits, vegetables, whole grains, and lean proteins. Stay hydrated and limit processed foods for optimal health."
+    - text: "संतुलित आहार में बहुत सारे फल, सब्जियां, साबुत अनाज और दुबले प्रोटीन शामिल होते हैं। इष्टतम स्वास्थ्य के लिए हाइड्रेटेड रहें और प्रोसेस्ड खाना सीमित करें।"
+
+  utter_fitness_tracking:
+    - text: "Start with 30 minutes of moderate exercise daily. Walking, swimming, or cycling are great options. Track your progress and gradually increase intensity."
+    - text: "दैनिक 30 मिनट की मध्यम व्यायाम से शुरुआत करें। चलना, तैरना या साइकिल चलाना बढ़िया विकल्प हैं। अपनी प्रगति को ट्रैक करें और धीरे-धीरे तीव्रता बढ़ाएं।"
+
+  utter_emotional_support:
+    - text: "I'm here to listen. Remember that it's okay to feel overwhelmed sometimes. Consider talking to a trusted friend, journaling your thoughts, or seeking professional support if needed."
+    - text: "मैं सुनने के लिए यहां हूं। याद रखें कि कभी-कभी अभिभूत महसूस करना ठीक है। एक विश्वसनीय दोस्त से बात करने, अपने विचारों को जर्नल करने, या जरूरत पड़ने पर पेशेवर सहायता लेने पर विचार करें।"
+
+  utter_mindfulness_practice:
+    - text: "Practice mindfulness by focusing on the present moment. Try a 5-minute meditation: sit comfortably, focus on your breath, and gently bring your attention back when your mind wanders."
+    - text: "वर्तमान क्षण पर ध्यान केंद्रित करके सचेतन का अभ्यास करें। 5-मिनट का ध्यान आजमाएं: आराम से बैठें, अपनी सांस पर ध्यान दें, और जब आपका मन भटके तो धीरे से अपना ध्यान वापस लाएं।"
+
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that. Can you please rephrase your question?"
+    - text: "क्षमा करें, मुझे वह समझ नहीं आया। क्या आप अपना प्रश्न फिर से कह सकते हैं?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

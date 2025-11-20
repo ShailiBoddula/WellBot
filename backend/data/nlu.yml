@@ -1,0 +1,81 @@
+version: "3.1"
+
+nlu:
+- intent: symptom_query
+  examples: |
+    - I have a sore throat
+    - My throat hurts
+    - I feel feverish
+    - I have a high temperature
+    - I'm coughing a lot
+    - I have a headache
+    - My head is aching
+    - My stomach hurts
+    - I have abdominal pain
+    - I feel nauseous
+    - मेरे गले में दर्द है
+    - मैं बुखार महसूस कर रहा हूं
+    - मैं खांस रहा हूं
+    - मेरा सिर दर्द कर रहा है
+    - मेरा पेट दर्द कर रहा है
+    - मुझे मतली महसूस हो रही है
+
+- intent: ask_first_aid
+  examples: |
+    - How to treat a cut
+    - First aid for burns
+    - What to do for a sprain
+    - How to bandage a wound
+    - Help with bleeding
+    - CPR instructions
+    - कट को कैसे इलाज करें
+    - जलन के लिए प्राथमिक उपचार
+    - मोच के लिए क्या करें
+    - घाव को कैसे पट्टी बांधें
+    - खून बहने में मदद
+    - सीपीआर निर्देश
+
+- intent: ask_wellness_tip
+  examples: |
+    - Give me a wellness tip
+    - How to stay healthy
+    - Diet advice
+    - Exercise tips
+    - Sleep better
+    - Hydration tips
+    - वेलनेस टिप दें
+    - स्वस्थ कैसे रहें
+    - आहार सलाह
+    - व्यायाम टिप्स
+    - बेहतर नींद लें
+    - हाइड्रेशन टिप्स
+
+- intent: greeting
+  examples: |
+    - Hello
+    - Hi there
+    - Good morning
+    - Hey
+    - Namaste
+    - How are you
+    - नमस्ते
+    - हैलो
+    - गुड मॉर्निंग
+    - कैसे हैं आप
+    - हाय
+    - क्या हाल है
+
+- intent: fallback
+  examples: |
+    - What is the weather like
+    - Tell me a joke
+    - Who is the president
+    - How to cook pasta
+    - What time is it
+    - Can you dance
+    - मौसम कैसा है
+    - एक जोक सुनाओ
+    - राष्ट्रपति कौन है
+    - पास्ता कैसे बनाएं
+    - समय क्या है
+    - क्या आप नाच सकते हैं

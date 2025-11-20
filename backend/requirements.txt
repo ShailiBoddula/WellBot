@@ -1,0 +1,14 @@
+flask
+flask-cors
+requests
+openai
+python-dotenv
+rasa
+transformers
+torch
+sentencepiece
+sacremoses
+indic-nlp-library
+dash
+pandas
+plotly

@@ -1,0 +1,7 @@
+{
+  "0": "ask_first_aid",
+  "1": "ask_wellness_tip",
+  "2": "fallback",
+  "3": "greeting",
+  "4": "symptom_query"
+}
